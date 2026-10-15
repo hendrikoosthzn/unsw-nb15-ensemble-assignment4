@@ -1,0 +1,16 @@
+tuning set 40000 rows, one-hot width 64, ordinal width 42
+
+E3 tree complexity (max_features=16)
+  gini depth=8 leaf=1                      f1m=0.4271±0.0127 bal=0.4204 acc=0.8027 (6.6s/fit)
+  gini depth=8 leaf=3                      f1m=0.4276±0.0138 bal=0.4212 acc=0.8034 (5.4s/fit)
+  gini depth=8 leaf=10                     f1m=0.4215±0.0080 bal=0.4171 acc=0.8023 (5.2s/fit)
+  gini depth=12 leaf=1                     f1m=0.5020±0.0084 bal=0.4861 acc=0.8172 (6.6s/fit)
+  gini depth=12 leaf=3                     f1m=0.4970±0.0053 bal=0.4825 acc=0.8167 (6.5s/fit)
+  gini depth=12 leaf=10                    f1m=0.4785±0.0105 bal=0.4671 acc=0.8155 (6.7s/fit)
+  gini depth=16 leaf=1                     f1m=0.5164±0.0030 bal=0.5014 acc=0.8178 (7.6s/fit)
+  gini depth=16 leaf=3                     f1m=0.5145±0.0060 bal=0.5005 acc=0.8187 (7.3s/fit)
+  gini depth=16 leaf=10                    f1m=0.4924±0.0103 bal=0.4822 acc=0.8161 (6.9s/fit)
+  gini depth=20 leaf=1                     f1m=0.5225±0.0055 bal=0.5071 acc=0.8170 (7.8s/fit)
+  gini depth=20 leaf=3                     f1m=0.5179±0.0063 bal=0.5045 acc=0.8182 (7.4s/fit)
+  gini depth=20 leaf=10                    f1m=0.4962±0.0129 bal=0.4865 acc=0.8173 (6.9s/fit)
+  gini depth=24 leaf=1                     f1m=0.5197±0.0034 bal=0.5061 acc=0.8137 (8.0s/fit)

@@ -1,0 +1,6 @@
+{"final": {
+  "rf_full":     {"n_trees": 200, "max_features": 16, "max_depth": null, "min_samples_leaf": 1,
+                  "criterion": "entropy", "class_weight": null, "bootstrap": "standard"},
+  "rf_bal_full": {"n_trees": 200, "max_features": 16, "max_depth": null, "min_samples_leaf": 1,
+                  "criterion": "entropy", "class_weight": null, "bootstrap": "balanced"}
+}}

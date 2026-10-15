@@ -1,0 +1,11 @@
+{
+  "max_features": 16,
+  "max_depth": null,
+  "min_samples_leaf": 1,
+  "criterion": "gini",
+  "final": {
+    "rf": {"n_trees": 200, "max_features": 16, "max_depth": null,
+           "min_samples_leaf": 1, "criterion": "gini",
+           "class_weight": null, "bootstrap": "standard"}
+  }
+}

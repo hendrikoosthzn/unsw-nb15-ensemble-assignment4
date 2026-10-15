@@ -1,0 +1,10 @@
+tuning set 40000 rows, one-hot width 64, ordinal width 42
+
+E2 max_features (strength vs diversity)
+  max_features=1                           f1m=0.4938±0.0064 bal=0.4782 acc=0.8061 str=0.4461 dis=0.2229 (2.9s/fit)
+  max_features=2                           f1m=0.4958±0.0056 bal=0.4803 acc=0.8072 str=0.4490 dis=0.2190 (3.0s/fit)
+  max_features=4                           f1m=0.5065±0.0065 bal=0.4922 acc=0.8099 str=0.4566 dis=0.2121 (3.8s/fit)
+  max_features=8                           f1m=0.5155±0.0019 bal=0.5039 acc=0.8119 str=0.4675 dis=0.2033 (5.4s/fit)
+  max_features=16                          f1m=0.5213±0.0067 bal=0.5093 acc=0.8122 str=0.4772 dis=0.1965 (8.9s/fit)
+  max_features=32                          f1m=0.5206±0.0054 bal=0.5094 acc=0.8112 str=0.4813 dis=0.1922 (15.6s/fit)
+  max_features=64                          f1m=0.5230±0.0094 bal=0.5111 acc=0.8098 str=0.4843 dis=0.1874 (31.0s/fit)

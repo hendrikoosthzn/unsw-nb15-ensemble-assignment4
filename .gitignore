@@ -1,0 +1,8 @@
+networkTraffic.csv
+__pycache__/
+*.pyc
+report/*.aux
+report/*.log
+report/*.fls
+report/*.fdb_latexmk
+report/*.out

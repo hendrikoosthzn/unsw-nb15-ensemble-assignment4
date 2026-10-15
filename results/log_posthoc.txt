@@ -1,0 +1,22 @@
+evaluation set 217673 rows, 10 folds
+  rf_full        fold 0  f1m=0.6249 acc=0.8332 bal=0.5975  fit 38.9s pred 0.5s
+  rf_bal_full    fold 0  f1m=0.5991 acc=0.7738 bal=0.6280  fit 34.1s pred 0.5s
+  rf_full        fold 1  f1m=0.6117 acc=0.8328 bal=0.5972  fit 50.4s pred 0.5s
+  rf_bal_full    fold 1  f1m=0.5765 acc=0.7736 bal=0.6079  fit 35.3s pred 0.5s
+  rf_full        fold 2  f1m=0.5871 acc=0.8285 bal=0.5586  fit 52.5s pred 0.6s
+  rf_bal_full    fold 2  f1m=0.5853 acc=0.7719 bal=0.6031  fit 35.4s pred 0.4s
+  rf_full        fold 3  f1m=0.6327 acc=0.8330 bal=0.5949  fit 49.1s pred 0.5s
+  rf_bal_full    fold 3  f1m=0.6053 acc=0.7742 bal=0.6304  fit 35.7s pred 0.5s
+  rf_full        fold 4  f1m=0.6051 acc=0.8341 bal=0.5793  fit 50.7s pred 0.5s
+  rf_bal_full    fold 4  f1m=0.5906 acc=0.7725 bal=0.6247  fit 37.4s pred 0.5s
+  rf_full        fold 5  f1m=0.5918 acc=0.8347 bal=0.5643  fit 48.9s pred 0.5s
+  rf_bal_full    fold 5  f1m=0.5919 acc=0.7784 bal=0.6409  fit 33.6s pred 0.4s
+  rf_full        fold 6  f1m=0.6052 acc=0.8314 bal=0.5860  fit 49.7s pred 0.5s
+  rf_bal_full    fold 6  f1m=0.5807 acc=0.7744 bal=0.6098  fit 33.8s pred 0.4s
+  rf_full        fold 7  f1m=0.6076 acc=0.8302 bal=0.5960  fit 46.1s pred 0.4s
+  rf_bal_full    fold 7  f1m=0.5734 acc=0.7699 bal=0.6130  fit 4359.2s pred 0.4s
+  rf_full        fold 8  f1m=0.5769 acc=0.8329 bal=0.5515  fit 36.4s pred 0.4s
+  rf_bal_full    fold 8  f1m=0.5713 acc=0.7757 bal=0.5938  fit 31.0s pred 0.4s
+  rf_full        fold 9  f1m=0.5808 acc=0.8282 bal=0.5513  fit 50.1s pred 0.5s
+  rf_bal_full    fold 9  f1m=0.5987 acc=0.7695 bal=0.6234  fit 35.0s pred 0.5s
+done

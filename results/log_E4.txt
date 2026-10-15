@@ -1,0 +1,15 @@
+tuning set 40000 rows, one-hot width 64, ordinal width 42
+
+E4 imbalance (max_features=16, depth=16, leaf=1, entropy)
+  none                                     f1m=0.5248±0.0129 bal=0.5087 acc=0.8187 (3.1s/fit)
+     recall   Normal=0.94 Reconn=0.77 Backdo=0.09 DoS=0.25 Exploi=0.82 Analys=0.06 Fuzzer=0.54 Worms=0.04 Shellc=0.61 Generi=0.98
+     precisionNormal=0.90 Reconn=0.91 Backdo=0.33 DoS=0.36 Exploi=0.65 Analys=0.21 Fuzzer=0.67 Worms=0.07 Shellc=0.64 Generi=1.00
+  balanced                                 f1m=0.5369±0.0161 bal=0.5567 acc=0.7895 (3.1s/fit)
+     recall   Normal=0.85 Reconn=0.80 Backdo=0.14 DoS=0.48 Exploi=0.62 Analys=0.16 Fuzzer=0.77 Worms=0.11 Shellc=0.67 Generi=0.98
+     precisionNormal=0.95 Reconn=0.85 Backdo=0.06 DoS=0.36 Exploi=0.78 Analys=0.07 Fuzzer=0.55 Worms=0.17 Shellc=0.55 Generi=1.00
+  balanced_subsample                       f1m=0.5419±0.0133 bal=0.5601 acc=0.7891 (4.0s/fit)
+     recall   Normal=0.85 Reconn=0.80 Backdo=0.14 DoS=0.48 Exploi=0.62 Analys=0.16 Fuzzer=0.77 Worms=0.15 Shellc=0.66 Generi=0.98
+     precisionNormal=0.95 Reconn=0.85 Backdo=0.06 DoS=0.36 Exploi=0.78 Analys=0.08 Fuzzer=0.55 Worms=0.21 Shellc=0.57 Generi=1.00
+  balanced_bootstrap                       f1m=0.5432±0.0236 bal=0.5912 acc=0.7683 (3.1s/fit)
+     recall   Normal=0.79 Reconn=0.82 Backdo=0.20 DoS=0.46 Exploi=0.58 Analys=0.26 Fuzzer=0.83 Worms=0.23 Shellc=0.77 Generi=0.97
+     precisionNormal=0.98 Reconn=0.81 Backdo=0.06 DoS=0.36 Exploi=0.81 Analys=0.09 Fuzzer=0.50 Worms=0.26 Shellc=0.47 Generi=1.00
