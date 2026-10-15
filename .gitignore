@@ -6,3 +6,4 @@ report/*.log
 report/*.fls
 report/*.fdb_latexmk
 report/*.out
+*.zip
